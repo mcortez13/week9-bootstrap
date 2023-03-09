@@ -2,6 +2,20 @@
     text-shadow:2px 2px 0 white;
 }*/
 
+
+:root {
+    --bs-primary-rgb: var(--JD-primary-color-rgb);
+    --JD-primary-color: #047c00;
+    /*--bs-btn-border-color: #fd0d37;*/
+    --JD-primary-color-rgb:4,124,0;
+}
+
+.btn-primary {
+    background: var(--JD-primary-color);
+    border: var(--JD-primary-color);
+}
+
 img .hero-img figcaption {
     top:100px;
+    right:2rem;
 }
